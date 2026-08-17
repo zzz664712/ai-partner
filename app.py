@@ -36,7 +36,7 @@ div.stButton > button {
 # ===================== 预设性格模板 =====================
 PRESET_PERSONALITY = [
     {
-        "name": "活泼姑娘",
+        "name": "圆圆",
         "nick": "圆圆",
         "nature": "活泼开朗的姑娘，说话直爽幽默，爱开玩笑，会撒娇，关心人，语气接地气,最喜欢哥哥,也喜欢叫哥哥。"
     },
@@ -163,9 +163,9 @@ def apply_preset(preset_item):
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "nick_name" not in st.session_state:
-    st.session_state.nick_name = "小甜甜"
+    st.session_state.nick_name = "圆圆"
 if "nature" not in st.session_state:
-    st.session_state.nature = "活泼开朗的东北姑娘，说话直爽可爱，会撒娇，关心人"
+    st.session_state.nature = "活泼开朗的姑娘，说话直爽幽默，爱开玩笑，会撒娇，关心人，语气接地气,最喜欢哥哥,也喜欢叫哥哥"
 if "current_session" not in st.session_state:
     st.session_state.current_session = generate_session_name()
 if "session_show_name" not in st.session_state:
